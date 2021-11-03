@@ -26,15 +26,15 @@ admins = {}
 OLD_PMS = {}
 AUDIO_CALL = {}
 VIDEO_CALL = {}
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_STRING = getenv("SESSION_STRING", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "AsmSupport")
+API_ID = int(getenv("API_ID", "7f2c9b9ac20e6840d13f9ca85e1c4e2d"))
+API_HASH = getenv("API_HASH", "6847114")
+BOT_TOKEN = getenv("BOT_TOKEN", "2072190749:AAHz8P1_ADtIp4n9p4UdRvS1pyGxldjnD4Q")
+SESSION_STRING = getenv("SESSION_STRING", "BQAWkilQyDXW0RDJxY4SUVRwWdTUi3VDQtsmLQhadyJuOg1VhfJINsDs-VNvQuPJbGKOEyRqJL0G7haGXazAwXOo59l6UNJGiVanBpviu_HcNJI7f39JODggZ-pumT8RUbEh28fAYnii_2ekwWa0kOGOS7oq3_ySAJb5hwDp2RnXF1JjMfauy-NF3ut8ralAli-F7laO0Hc7fi0m4ggerhAfDnDPwK8hq50fwma25T8lT9W32ykey8SWpncn-huWTGETzfik22mhcAdXZ9xS6oJufdYUXHR8Fx6BydcsLarq5BzKDZ5LPH_zskq4YK1dScg1v9CXIWMxBDHS-wSZs67aaT9o4gA")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "anonmusikid")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "AsmSafone")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MyVideoPlayer")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
-REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "alexaassisten")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "927625147").split()))
+REPLY_MESSAGE = getenv("REPLY_MESSAGE", "Dont PM this account or your grup will be ban forever!")
 if not REPLY_MESSAGE:
     REPLY_MESSAGE = None
 else:
